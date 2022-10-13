@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+
+.redressed {
+    font-family: 'Redressed', cursive;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.cc-navbar {
+    background-color: rgba(0, 0, 0, 0.65);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.cc-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.cc-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: #0dcaf0;
+}
+
+.banner,
+.order-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/routeSinueuse.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.order-form {
+    height: 500px;
+}
+
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.cc-menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/background6.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+
+.btn-order {
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+    transition: 0.5s;
+}
+
+.btn-order:hover,
+.btn-order:focus,
+.btn-order:active {
+    color: #fff;
+    background-color: #0dcaf0;
+}
+
+.fond {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2));
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* le corps du formualre est ici */
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height:fit-content;
+    background-color: #EAEAEA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 30px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -15px;
+}
+
+.styleFielSet {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C8C8C8;
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.styleLegend {
+    background-color: black;
+    color: #C8C8C8;
+}
+
+.styleLegend ::first-letter {
+    font-size: 30px;
+}
+
+.styleFielSet input {
+    float: right;
+    margin-right: 50px;
+    width: 40%;
+}
+
+.styleFielSet label {
+    display:inline-flex;
+    margin-left: 20px;
+}
+
+/* pour le footer */
+
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    height: 70vh;
+}
+
+.footer-48201 {
+    padding: 7rem 0;
+    background-color: #000;
+    color: #777;
+}
+
+.footer-48201 .footer-site-logo {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-48201 .nav-links li {
+    margin-bottom: 10px;
+}
+
+.footer-48201 .nav-links li a {
+    color: gray;
+}
+
+.footer-48201 .nav-links li a:hover {
+    color: #fff;
+}
+
+.footer-48201 .btn.btn-tertiary {
+    background-color: #e42c64;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.footer-48201 .social li {
+    display: inline-block;
+}
+
+.footer-48201 .social li a {
+    color: gray;
+    padding: 7px;
+}
+
+.footer-48201 .social li a:hover {
+    color: #fff;
+}
+
+.footer-48201 .copyright {
+    border-top: 1px solid #404040;
+}
+
+.bannerDown {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/sunset.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+
+.formulaire {
+    justify-content: center;
+}
